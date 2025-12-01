@@ -21,7 +21,7 @@ As someone working in the Environmental Health and Safety software industry, I w
 
 - **Source:** OSHA Severe Injury Reports (https://www.osha.gov/severe-injury-reports)
 - **Records:** 98,801 severe workplace injuries
-- **Time Period:** January 2015 - February 2025
+- **Time Period:** January 2015 - February 2025 (**Update, as of 12/1/25, it looks like the March data is included now**)
 - **Attributes:** 27 fields including geographic coordinates, industry codes (NAICS), injury type, employer information, and detailed incident narratives
 
 ## Research Questions & Findings Summary
@@ -57,3 +57,4 @@ Industry patterns vary by state. For example, oil and gas operations dominate in
 - 2025: Incomplete data (only through February)
 
 The data suggests that while pandemic-related workplace closures temporarily reduced severe injuries, rates have not returned to pre-pandemic levels, possibly indicating lasting changes in workplace practices or reporting.
+
