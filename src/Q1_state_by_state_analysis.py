@@ -1,5 +1,6 @@
 import pandas as pd
 
+# Load and clean OSHA data
 df = pd.read_csv('src/dataset/January2015toFebruary2025.csv')
 df = df.drop_duplicates()
 df_clean = df.dropna(subset=['State'])
@@ -32,4 +33,5 @@ print("Std deviation:", round(state_counts.std(), 2))
 print("State with most injuries:", state_counts.index[0], "(" + str(state_counts.iloc[0]) + ")")
 
 print("State with least injuries:", state_counts.index[-1], "(" + str(state_counts.iloc[-1]) + ")")
+
 
