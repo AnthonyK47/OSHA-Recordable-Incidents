@@ -8,7 +8,7 @@ CSPB 4502 - Data Mining
 
 ## Final Project Links
 
-- Final Paper: 
+- Final Paper: [Click Here](https://drive.google.com/file/d/1HupHuz4yS_UjRdjURtk2p0S6EZzIQXU3/view?usp=sharing)
 - Project Presentation: [Click Here](https://drive.google.com/file/d/1yZ9WhRKRnjjWliTSd1rX4bq9b2qf0pqZ/view?usp=sharing)
 
 ## Project Description
@@ -57,5 +57,6 @@ Industry patterns vary by state. For example, oil and gas operations dominate in
 - 2025: Incomplete data (only through February)
 
 The data suggests that while pandemic-related workplace closures temporarily reduced severe injuries, rates have not returned to pre-pandemic levels, possibly indicating lasting changes in workplace practices or reporting.
+
 
 
