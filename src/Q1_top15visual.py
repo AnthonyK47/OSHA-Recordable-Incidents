@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Load and clean OSHA data
 df = pd.read_csv('src/dataset/January2015toFebruary2025.csv')
 df = df.drop_duplicates()
 df_clean = df.dropna(subset=['State'])
@@ -20,3 +21,4 @@ plt.grid(axis='y', alpha=0.3)
 plt.tight_layout()
 plt.savefig('state_injury_counts.png', dpi=300, bbox_inches='tight')
 plt.show()
+
