@@ -31,4 +31,5 @@ plt.tight_layout()
 plt.savefig('time_trends_simple.png', dpi=300, bbox_inches='tight')
 plt.show()
 
-print("Visualization saved as 'time_trends_simple.png'")
+
+print("Visualization saved as 'time_trends.png'")
