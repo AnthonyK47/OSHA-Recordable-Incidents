@@ -36,7 +36,7 @@ for state in top_states:
 
 # Healthcare analysis across states
 healthcare_naics = 622110
-print("=== HEALTHCARE (NAICS 622110) ANALYSIS ===")
+print("HEALTHCARE (NAICS 622110) ANALYSIS")
 print("\n")
 
 for state in top_states:
@@ -46,4 +46,5 @@ for state in top_states:
     percentage = (healthcare_count / total_count) * 100
     
     print(state + ": " + str(healthcare_count) + " healthcare injuries (" + 
+
           str(round(percentage, 1)) + "% of state total)")
