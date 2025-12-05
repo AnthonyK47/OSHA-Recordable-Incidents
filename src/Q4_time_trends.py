@@ -10,7 +10,7 @@ df['EventDate'] = pd.to_datetime(df['EventDate'])
 # Extract year
 df['Year'] = df['EventDate'].dt.year
 
-print("=== YEARLY INJURY TRENDS (2015-2025) ===")
+print("YEARLY INJURY TRENDS (2015-2025)")
 print("\n")
 
 # Count injuries by year
@@ -23,7 +23,7 @@ for year, count in yearly_counts.items():
 print("\n")
 
 # Calculate year-over-year changes
-print("=== YEAR-OVER-YEAR CHANGES ===")
+print("YEAR-OVER-YEAR CHANGES")
 print("\n")
 
 previous_year = None
@@ -43,7 +43,8 @@ for year, count in yearly_counts.items():
 print("\n")
 
 # Summary statistics
-print("=== SUMMARY STATISTICS ===")
+print("SUMMARY STATISTICS")
+print("\n")
 print("Total years analyzed:", len(yearly_counts))
 print("Average injuries per year:", round(yearly_counts.mean(), 2))
 print("Highest year:", yearly_counts.idxmax(), "(" + str(yearly_counts.max()) + " injuries)")
