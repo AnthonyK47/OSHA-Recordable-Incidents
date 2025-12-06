@@ -31,8 +31,19 @@ print("Mean injuries per state:", round(state_counts.mean(), 2))
 print("Median injuries per state:", round(state_counts.median(), 2))
 print("Std deviation:", round(state_counts.std(), 2))
 print("State with most injuries:", state_counts.index[0], "(" + str(state_counts.iloc[0]) + ")")
-
 print("State with least injuries:", state_counts.index[-1], "(" + str(state_counts.iloc[-1]) + ")")
+print("\n")
+
+# Calculate z-score for each state
+mean = state_counts.mean()
+std = state_counts.std()
+
+print("Z-SCORE ANALYSIS")
+print("\n")
+for state, count in state_counts.items():
+    z_score = (count - mean) / std
+    print(state + ": "  " z-score = " + str(round(z_score, 2)))
+
 
 
 
